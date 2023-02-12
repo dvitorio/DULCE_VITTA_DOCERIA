@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Quicksand:wght@300&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body{background-color: lightgrey !important}
+
+.containerGeral{
+     width: 100vw;
+     min-height: 100vh;
+}
+
+.navigation{
+     width: 100vw;
+     min-height: 8rem;
+     background-color: #FF3CAC;
+     background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);     
+}
+
+.menu{margin-left: 15rem}
+
+.coverSite{
+     width: 100vw;
+     height: 85vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     background-size: contain;
+}
+
+.coverSite img{
+     width: 100%;
+}
+
+
+
+
+
+
+/*Responsividade**/
+@media screen and (max-width: 30rem) {
+     .menu{
+          margin-left: -3rem;
+     }
+     .coverSite{
+          display: flex;
+          align-items: center;
+          height: 40vh;
+     }
+     .coverSite img{
+          height: 100%;
+     }
+}
+
+
+
