@@ -7,48 +7,35 @@
      box-sizing: border-box;
 }
 
-.navigation{
-     width: 100vw;
-     min-height: 5rem;
-     background-color: #FF3CAC;
-     background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);     
+.navbar{
+     background-color: #00DBDE;
+     background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
 }
-
-.menu{margin-left: 15rem}
 
 .coverSite{
-     width: 100vw;
-     height: 85vh;
      display: flex;
      align-items: center;
-     justify-content: center;
-     flex-direction: column;
-     background-size: contain;
+     justify-self: center;
+     flex-wrap: wrap;
 }
 
-.coverSite img{
-     width: 100%;
+.text{
+     height: 85vh;
+     width: 55vw;
+}
+
+.formulario{
+     height: 80vh;
+     width: 45vw;
+     margin: 2rem auto;
+     background-color: #4158D0;
+     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
 
 
 
 
-
-/*Responsividade**/
-@media screen and (max-width: 30rem) {
-     .menu{
-          margin-left: -3rem;
-     }
-     .coverSite{
-          display: flex;
-          align-items: center;
-          height: 40vh;
-     }
-     .coverSite img{
-          height: 100%;
-     }
-}
 
 
 
